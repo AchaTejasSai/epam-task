@@ -1,10 +1,20 @@
+/**
+ * 
+ * @author Acha Tejas Sai
+ *
+ */
 import java.util.Math;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
 
 public class SimpleCompoundInterest
 {
    int principle;
    int interestRate;
    int time;
+	@Test
     public SimpleCompoundInterest(int principle,int interestRate,int time)
   {
         this.principle = principle;
